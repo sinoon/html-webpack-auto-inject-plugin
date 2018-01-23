@@ -34,11 +34,12 @@ Require the plugin in your webpack config:
 const HtmlWebpackAutoInjectPlugin = require('html-webpack-auto-inject-plugin');
 ```
 
-Add the plugin to your webpack config as follows:
-
 For now,just support javascript file import,will support css file import in 1.0 version.
 
 All javascript file import config are set in `script`
+
+Add the plugin to your webpack config as follows:
+
 ### options
 - script [Array] : Accept `string` for file path and `Object` for custom config.
 String:for javascript path.`relative` or `absolute`.
