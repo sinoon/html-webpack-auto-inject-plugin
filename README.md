@@ -21,7 +21,7 @@ You must be running webpack on node 4 or higher
 
 Install the plugin with npm:
 ```bash
-$ npm install --save-dev html-webpack-inline-source-plugin
+$ npm install --save-dev html-webpack-auto-inject-plugin
 ```
 
 ## Basic Usage
