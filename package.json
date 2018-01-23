@@ -1,0 +1,29 @@
+{
+  "name": "html-webpack-auto-inject-plugin",
+  "version": "1.0.0",
+  "description": "auto inject js file to html without require/import the file",
+  "main": "index.js",
+  "dependencies": {
+    "uglify-js": "^3.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinoon/html-webpack-auto-inject-plugin.git"
+  },
+  "keywords": [
+    "auto",
+    "inject",
+    "html",
+    "plugin"
+  ],
+  "author": "sinoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinoon/html-webpack-auto-inject-plugin/issues"
+  },
+  "homepage": "https://github.com/sinoon/html-webpack-auto-inject-plugin#readme"
+}
