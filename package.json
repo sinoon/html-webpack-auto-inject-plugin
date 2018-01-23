@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-auto-inject-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "auto inject js file to html without require/import the file",
   "main": "index.js",
   "dependencies": {
