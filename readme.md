@@ -42,10 +42,11 @@ Add the plugin to your webpack config as follows:
 
 ### options
 - script [Array] : Accept `string` for file path and `Object` for custom config.
-String:for javascript path.`relative` or `absolute`.
-Object:
-    - path: Like directly set string above config
-    - compress [Boolean]: compress or not.Use `uglify-js`.
+    Accept two type:
+    - String: for javascript path.`relative` or `absolute`.
+    - Object:
+        - path: Like directly set string above config
+        - compress [Boolean]: compress or not.Use `uglify-js`.
 
 ```javascript
 plugins: [
