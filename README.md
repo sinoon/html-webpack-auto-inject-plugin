@@ -23,7 +23,7 @@ Install the plugin with npm:
 ```bash
 $ npm install --save-dev html-webpack-auto-inject-plugin
 
-// for npm > 5
+# for npm > 5
 $ npm install --only=dev html-webpack-auto-inject-plugin
 ```
 
@@ -55,6 +55,7 @@ plugins: [
         './path/to/js',
         // absolute path
         '/User/sinoon/code/path/to/js',
+        // custom config
         {
             path: './path/to/js',
             compress: true
