@@ -1,7 +1,7 @@
 # Auto Inject extension for the HTML Webpack Plugin
 html-webpack-auto-inject-plugin，auto inject js file to html
 
-## Why you need this
+## Why you need
 Sometimes,I just need require/import a js source inject to html file.ie:`flexible.js`,`some log js`,but I have to modify html template file or require/import file that I won't actually exec by code manually.
 
 ## Feature
