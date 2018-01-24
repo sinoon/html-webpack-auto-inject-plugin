@@ -45,19 +45,12 @@ Add the plugin to your webpack config as follows:
 
 ### options
 
-- script [Array] : Accept `string` for file path and `Object` for custom config.
--
+#### script [Array] : Accept `string` for file path and `Object` for custom config.Above are explain of options:
 | Key | Type | Default | Require | Mean |
 | --- | --- | --- | --- | --- |
 | path | String | '' | True | The path of your want auto inject to html  |
 | position | String | head | False | The position your want to placed code |
-| compress | Boolean | false | False | Compress or not |
-
-    Accept two type:
-    - String: for javascript path.`relative` or `absolute`.
-    - Object:
-        - path: Like directly set string above config
-        - compress [Boolean]: compress or not.Use `uglify-js`.
+| compress | Boolean | false | False | Compress or not.`uglify-js`. |
 
 ```javascript
 plugins: [
