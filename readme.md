@@ -6,12 +6,14 @@ Sometimes,I just need require/import a js source inject to html file.ie:`flexibl
 
 ## Feature
 Now Support:
+
 - Auto inject js file
 - Compress js file
 
 Will Support
+
 - Auto inject css file
-- Do you want by create issue to me
+- What you want by create issue to me
 
 ## How to use
 This plugin require `html-webpack-plugin`,because listen the event by emit `html-webpack-plugin`:`html-webpack-plugin-before-html-processing`.
@@ -20,6 +22,7 @@ This plugin require `html-webpack-plugin`,because listen the event by emit `html
 You must be running webpack on node 4 or higher
 
 Install the plugin with npm:
+
 ```bash
 $ npm install --save-dev html-webpack-auto-inject-plugin
 
@@ -41,7 +44,15 @@ All javascript file import config are set in `script`
 Add the plugin to your webpack config as follows:
 
 ### options
+
 - script [Array] : Accept `string` for file path and `Object` for custom config.
+-
+| Key | Type | Default | Require | Mean |
+| --- | --- | --- | --- | --- |
+| path | String | '' | True | The path of your want auto inject to html  |
+| position | String | head | False | The position your want to placed code |
+| compress | Boolean | false | False | Compress or not |
+
     Accept two type:
     - String: for javascript path.`relative` or `absolute`.
     - Object:
@@ -66,3 +77,7 @@ plugins: [
   })
 ]
 ```
+
+## TODO
+- [ ] Support Css.
+- [ ] Support Ignore.Match by regexp.
