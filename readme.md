@@ -25,9 +25,6 @@ Install the plugin with npm:
 
 ```bash
 $ npm install --save-dev html-webpack-auto-inject-plugin
-
-# for npm > 5
-$ npm install --only=dev html-webpack-auto-inject-plugin
 ```
 
 ## Basic Usage
@@ -61,7 +58,7 @@ plugins: [
     script: [
         // relative path
         './path/to/js',
-        // recommend in this way by use npm auto resolve the path of you need inject
+        // recommend in this way by use node auto resolve the path of you need inject
         require.resolve('amfe-flexible'),
 
         // absolute path
