@@ -48,11 +48,11 @@ Add the plugin to your webpack config as follows:
 #### script [Array]
 Accept `string` for file path and `Object` for custom config.Above are explain of options:
 
-| Key | Type | Default | Require | Mean |
-| --- | --- | --- | --- | --- |
-| path | String | undefined | True | The path of your want auto inject to html  |
-| position | String | head | False | The position your want to placed code.`head` for inject to head.`body` for inject to end of body. |
-| compress | Boolean | false | False | Compress or not.`uglify-js`. |
+| Key | Type | Default | Accept | Require | Mean |
+| --- | --- | --- | --- | --- | --- |
+| path | String | undefined | Any String | True | The path of your want auto inject to html |
+| position | String | head | ‘head’,’body' | False | The position your want to placed code. `head` for inject to head.`body` for inject to end of body. |
+| compress | Boolean | false | true,false | False | Compress or not.`uglify-js`. |
 
 ```javascript
 plugins: [
