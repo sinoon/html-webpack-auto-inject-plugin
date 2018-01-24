@@ -50,8 +50,8 @@ Accept `string` for file path and `Object` for custom config.Above are explain o
 
 | Key | Type | Default | Require | Mean |
 | --- | --- | --- | --- | --- |
-| path | String | '' | True | The path of your want auto inject to html  |
-| position | String | head | False | The position your want to placed code |
+| path | String | undefined | True | The path of your want auto inject to html  |
+| position | String | head | False | The position your want to placed code.`head` for inject to head.`body` for inject to end of body. |
 | compress | Boolean | false | False | Compress or not.`uglify-js`. |
 
 ```javascript
