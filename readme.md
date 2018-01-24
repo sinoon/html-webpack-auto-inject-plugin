@@ -47,6 +47,7 @@ Add the plugin to your webpack config as follows:
 
 #### script [Array]
 Accept `string` for file path and `Object` for custom config.Above are explain of options:
+
 | Key | Type | Default | Require | Mean |
 | --- | --- | --- | --- | --- |
 | path | String | '' | True | The path of your want auto inject to html  |
