@@ -1,4 +1,7 @@
 # Auto Inject extension for the HTML Webpack Plugin
+
+![travis](https://travis-ci.org/sinoon/html-webpack-auto-inject-plugin.svg?branch=master)
+
 html-webpack-auto-inject-plugin，auto inject js file to html
 
 ## Why you need
