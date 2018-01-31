@@ -2,7 +2,7 @@
 html-webpack-auto-inject-plugin，auto inject js file to html
 
 ## Why you need
-Sometimes,I just need require/import a js source inject to html file.ie:`flexible.js`,`some log js`,but I have to modify html template file or require/import file that I won't actually exec by code manually.
+Personally, when I need to require/import a js source injecting to html file.ie:`flexible.js`,`some log js`, I have to modify html template file or require/import file that I won't actually exec by code manually. Therefore, I explored a solution to share for such issue.
 
 ## Feature
 Now Support:
@@ -13,7 +13,7 @@ Now Support:
 Will Support
 
 - Auto inject css file
-- What you want by create issue to me
+- What you aim to by create issue to me
 
 ## How to use
 This plugin require `html-webpack-plugin`,because listen the event by emit `html-webpack-plugin`:`html-webpack-plugin-before-html-processing`.
@@ -34,7 +34,7 @@ Require the plugin in your webpack config:
 const HtmlWebpackAutoInjectPlugin = require('html-webpack-auto-inject-plugin');
 ```
 
-For now,just support javascript file import,will support css file import in 1.0 version.
+For now,just support javascript file import,and css file import in 1.0 version will supported.
 
 All javascript file import config are set in `script`
 
