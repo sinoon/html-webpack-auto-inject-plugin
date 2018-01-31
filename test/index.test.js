@@ -7,6 +7,12 @@ const cherrio = require('cheerio')
 
 // prepare env
 const OUTPUT = path.join(__dirname, './dist')
+const jsFile = function () {
+    return function (...args) {
+        return path.join(__dirname, ...args)
+    }
+}()
+
 test('It will be compress', done => {
     webpack({
         entry: path.join(__dirname, 'src', 'index.js'),
@@ -18,7 +24,7 @@ test('It will be compress', done => {
             new HtmlWebpackAutoInjectPlugin({
                 script: [
                     {
-                        path: require.resolve('./src/inject.js'),
+                        path: jsFile('./src/inject.js'),
                         compress: true
                     }
                 ]
@@ -47,7 +53,7 @@ test('It will not be compress', done => {
             new HtmlWebpackAutoInjectPlugin({
                 script: [
                     {
-                        path: require.resolve('./src/inject.js')
+                        path: jsFile('./src/inject.js')
                     }
                 ]
             })
@@ -80,7 +86,7 @@ test('It will inject to head', done => {
             new HtmlWebpackAutoInjectPlugin({
                 script: [
                     {
-                        path: require.resolve('./src/inject.js'),
+                        path: jsFile('./src/inject.js'),
                         compress: true
                     }
                 ]
@@ -110,7 +116,7 @@ test('It will inject to body', done => {
             new HtmlWebpackAutoInjectPlugin({
                 script: [
                     {
-                        path: require.resolve('./src/inject.js'),
+                        path: jsFile('./src/inject.js'),
                         compress: true,
                         position: 'body'
                     }
