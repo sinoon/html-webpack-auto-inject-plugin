@@ -19,7 +19,7 @@ Will Support
 This plugin require `html-webpack-plugin`,because listen the event by emit `html-webpack-plugin`:`html-webpack-plugin-before-html-processing`.
 
 ## Installation
-You must be running webpack on node 4 or higher
+You must be running webpack on node 8 or higher
 
 Install the plugin with npm:
 
