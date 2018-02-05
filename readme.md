@@ -1,4 +1,7 @@
 # Auto Inject extension for the HTML Webpack Plugin
+
+![travis](https://travis-ci.org/sinoon/html-webpack-auto-inject-plugin.svg?branch=master)
+
 html-webpack-auto-inject-plugin，auto inject js file to html
 
 **Only Support Node 8**.You need node LTS version 8 or higher version.
