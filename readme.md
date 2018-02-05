@@ -1,6 +1,8 @@
 # Auto Inject extension for the HTML Webpack Plugin
 html-webpack-auto-inject-plugin，auto inject js file to html
 
+**Only Support Node 8**.You need node LTS version 8 or higher version.
+
 ## Why you need
 Personally, when I need to require/import a js source injecting to html file.ie:`flexible.js`,`some log js`, I have to modify html template file or require/import file that I won't actually exec by code manually. Therefore, I explored a solution to share for such issue.
 
