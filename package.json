@@ -16,7 +16,7 @@
         "webpack": "^3.10.0"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest && codecov"
     },
     "repository": {
         "type": "git",
@@ -33,5 +33,9 @@
     "bugs": {
         "url": "https://github.com/sinoon/html-webpack-auto-inject-plugin/issues"
     },
-    "homepage": "https://github.com/sinoon/html-webpack-auto-inject-plugin#readme"
+    "homepage": "https://github.com/sinoon/html-webpack-auto-inject-plugin#readme",
+    "jest": {
+        "coverageDirectory": "./coverage/",
+        "collectCoverage": true
+    }
 }
