@@ -1,6 +1,7 @@
 # Auto Inject extension for the HTML Webpack Plugin
 
 ![travis](https://travis-ci.org/sinoon/html-webpack-auto-inject-plugin.svg?branch=master)
+[![npm version](https://badge.fury.io/js/html-webpack-auto-inject-plugin.svg)](https://badge.fury.io/js/html-webpack-auto-inject-plugin)
 
 html-webpack-auto-inject-plugin，auto inject js file to html
 
