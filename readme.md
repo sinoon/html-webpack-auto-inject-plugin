@@ -3,6 +3,7 @@
 ![travis](https://travis-ci.org/sinoon/html-webpack-auto-inject-plugin.svg?branch=master)
 [![npm version](https://badge.fury.io/js/html-webpack-auto-inject-plugin.svg)](https://badge.fury.io/js/html-webpack-auto-inject-plugin)
 [![codecov](https://codecov.io/gh/sinoon/html-webpack-auto-inject-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/sinoon/html-webpack-auto-inject-plugin)
+![dependance](https://david-dm.org/sinoon/html-webpack-auto-inject-plugin.svg)
 
 html-webpack-auto-inject-plugin，auto inject js file to html
 
